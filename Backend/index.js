@@ -2,6 +2,7 @@ const express = require("express");
 const { createTodo, updateTodo} = require("./types.js");
 const { todo } = require("./db.js");
 const app = express();
+require('dotenv').config()
 
 const port = 3000;
 
